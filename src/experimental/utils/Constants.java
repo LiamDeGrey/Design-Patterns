@@ -5,5 +5,5 @@ package experimental.utils;
  * Created by liamdg on 4/08/16.
  */
 public class Constants {
-    public static final String STARTUP_MSG = "Starting %s Pattern";
+    public static final String STARTUP_MSG = "Starting %s Pattern\n";
 }
