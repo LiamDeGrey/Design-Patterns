@@ -1,4 +1,4 @@
-package experimental.patterns.abstractFactory;
+package experimental.patterns.abstractfactory;
 
 import java.util.Locale;
 

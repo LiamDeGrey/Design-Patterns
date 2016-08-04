@@ -2,7 +2,7 @@
   <configuration default="false" name="Iterator" type="Application" factoryName="Application">
     <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
       <pattern>
-        <option name="PATTERN" value="experimental.patterns.abstractFactory.*" />
+        <option name="PATTERN" value="experimental.patterns.abstractfactory.*" />
         <option name="ENABLED" value="true" />
       </pattern>
     </extension>
