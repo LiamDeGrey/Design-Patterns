@@ -13,5 +13,15 @@ public class Main {
 
     public static void main(final String[] args) {
         System.out.printf(Locale.getDefault(), Constants.STARTUP_MSG, PATTERN_NAME);
+
+        final String str1 = "Hello";
+        final String str2 = "World!";
+        final MergedString mergedStringStandard = new MergedString(str1, str2, new StandardMerger());
+        final MergedString mergedStringIntertwined = new MergedString(str1, str2, new IntertertwinedMerger());
+
+        final boolean correct = mergedStringStandard.getMergedString().equals("HelloWorld!") &&
+                mergedStringIntertwined.getMergedString().equals("HWeolrllod!");
+
+        System.out.println("Strategy pattern is correct ? " + correct);
     }
 }
